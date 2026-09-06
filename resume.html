@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Olea - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cambria', 'Calibri', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 8.5in;
+            height: 11in;
+            background: white;
+            margin: 0 auto;
+            padding: 0.5in;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .contact-info {
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .contact-info p {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        .contact-info p:first-child {
+            margin-left: 0;
+        }
+        
+        .section {
+            margin-bottom: 15px;
+        }
+        
+        .section-title {
+            font-size: 13px;
+            font-weight: bold;
+            background-color: #f0f0f0;
+            padding: 5px 8px;
+            margin-bottom: 8px;
+            border-left: 3px solid #333;
+        }
+        
+        .entry {
+            margin-bottom: 10px;
+            font-size: 11px;
+        }
+        
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        
+        .entry-title {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .entry-meta {
+            color: #666;
+            font-style: italic;
+            font-size: 10px;
+        }
+        
+        .entry-subtitle {
+            color: #555;
+            font-size: 10px;
+            margin-bottom: 3px;
+        }
+        
+        .entry-description {
+            color: #333;
+            margin-left: 15px;
+            line-height: 1.4;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-top: 3px;
+        }
+        
+        li {
+            margin-bottom: 2px;
+            font-size: 11px;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 150px;
+        }
+        
+        .skill-category-title {
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+        
+        .skill-category-content {
+            font-size: 10px;
+            line-height: 1.5;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                max-width: 100%;
+                height: auto;
+                box-shadow: none;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ARIEL OLEA</h1>
+            <div class="contact-info">
+                <p>📧 Email</p>
+                <p>📱 Phone</p>
+                <p>📍 Location</p>
+                <p>🔗 LinkedIn</p>
+            </div>
+        </header>
+        
+        <div class="section">
+            <div class="section-title">PROFESSIONAL SUMMARY</div>
+            <p style="font-size: 11px; line-height: 1.5;">
+                Dedicated professional with a proven track record of excellence in [your field]. 
+                Seeking to leverage strong technical skills and experience to contribute to a dynamic team.
+            </p>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">EXPERIENCE</div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Job Title</span>
+                    <span class="entry-meta">Dates</span>
+                </div>
+                <div class="entry-subtitle">Company Name</div>
+                <div class="entry-description">
+                    <ul>
+                        <li>Key achievement or responsibility</li>
+                        <li>Key achievement or responsibility</li>
+                        <li>Key achievement or responsibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">EDUCATION</div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Degree Name</span>
+                    <span class="entry-meta">Graduation Year</span>
+                </div>
+                <div class="entry-subtitle">University Name</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">SKILLS</div>
+            <div class="skills-list">
+                <div class="skill-category">
+                    <div class="skill-category-title">Technical</div>
+                    <div class="skill-category-content">
+                        Skill 1, Skill 2, Skill 3
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Professional</div>
+                    <div class="skill-category-content">
+                        Skill A, Skill B, Skill C
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
